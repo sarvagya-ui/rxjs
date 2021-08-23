@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { ObservableComponent } from './observable/observable.component';
 import {ListComponent} from './observable/list/list.component';
 import { FromEventComponent } from './observable/from-event/from-event.component';
+import { IntervalComponent } from './interval/interval.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { FromEventComponent } from './observable/from-event/from-event.component
     AppComponent,
     ObservableComponent,
     ListComponent,
-    FromEventComponent
+    FromEventComponent,
+    IntervalComponent
   ],
   imports: [
     BrowserModule,

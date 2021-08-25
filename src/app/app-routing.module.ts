@@ -5,13 +5,15 @@ import { FromEventComponent } from './observable/from-event/from-event.component
 import { ListComponent } from './observable/list/list.component';
 import { ObservableComponent } from './observable/observable.component';
 import { OfFromComponent } from './of-from/of-from.component';
+import { ToarrayComponent } from './toarray/toarray.component';
 
 const routes: Routes = [
   {path:'observable',component:ObservableComponent , children:[
     {path:'',component:ListComponent},
     {path:'fromevent',component:FromEventComponent},
     {path:'interval',component:IntervalComponent},
-    {path:'offrom',component:OfFromComponent}
+    {path:'offrom',component:OfFromComponent},
+    {path:'toarray',component:ToarrayComponent}
   ]},
   {path :'**',redirectTo:'observable'}
 ];

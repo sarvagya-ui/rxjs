@@ -31,8 +31,6 @@ export class ToarrayComponent implements OnInit {
      this.obsmgs=res;
      console.log(this.obsmgs);
      
-     console.log(this.obsmgs[1][0].name);
-     
      
    })
 

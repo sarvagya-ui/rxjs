@@ -9,6 +9,7 @@ import { FromEventComponent } from './observable/from-event/from-event.component
 import { IntervalComponent } from './interval/interval.component';
 import { OfFromComponent } from './of-from/of-from.component';
 import { ToarrayComponent } from './toarray/toarray.component';
+import { MapComponent } from './map/map.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { ToarrayComponent } from './toarray/toarray.component';
     FromEventComponent,
     IntervalComponent,
     OfFromComponent,
-    ToarrayComponent
+    ToarrayComponent,
+    MapComponent
   ],
   imports: [
     BrowserModule,

@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { AsyncSubjectComponent } from './async-subject/async-subject.component';
 import { FilterComponent } from './filter/filter.component';
 import { IntervalComponent } from './interval/interval.component';
 import { MapComponent } from './map/map.component';
@@ -19,7 +20,8 @@ const routes: Routes = [
     {path:'toarray',component:ToarrayComponent},
     {path:'map',component:MapComponent},
     {path:'filter',component:FilterComponent},
-    {path:'subject',component:SubjectComponent}
+    {path:'subject',component:SubjectComponent},
+    {path:'asyncsubject',component:AsyncSubjectComponent}
   ]},
   {path :'**',redirectTo:'observable'}
 ];

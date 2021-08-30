@@ -1,0 +1,24 @@
+<div class="my-3">
+    <h5>Async-Subject</h5>
+    <br>
+    <hr>
+    <div class="row">
+        <div class="col-md-4">
+            <input type="text" class="form-control" #videoAdd>
+            <button class="btn btn-success my-3" (click)="onVideoAdd(videoAdd.value)">Add Video</button>
+        </div>
+
+        <div class="col-md-4">
+           <p><strong>User : 01</strong></p>
+           <hr>
+            <p class="border rounded  mx-2 py-2 px-2">Video subscribed : {{asyncVideoEmit}}</p>
+        </div>
+
+        <div class="col-md-4">
+            <p><strong>Click to complete</strong></p>
+            <hr>
+             <button class="btn btn-success" (click)="onComplete()">Complete Subscription</button>
+         </div>
+    </div>
+
+</div>

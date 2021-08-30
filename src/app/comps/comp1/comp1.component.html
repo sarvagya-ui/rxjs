@@ -1,0 +1,11 @@
+<div class="card">
+    <div class="card-header">
+      comp1
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">User name <span class="text-primary">{{userName}}</span></h5>
+      <input type="text" class="form-control" #username>
+      <button class="btn btn-primary my-2" (click)="onChange(username.value)">change</button>
+      
+    </div>
+  </div>

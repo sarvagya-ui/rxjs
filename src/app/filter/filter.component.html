@@ -1,0 +1,52 @@
+<div class="my-3">
+    <h5 class="text-success">Filter</h5>
+    <br>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div>
+                <strong>EX - 01</strong>
+                <hr>
+            </div>
+            <div class=" border bg-light py-2 px-2 rounded">
+                Filter by Length
+                <br>
+                <div *ngFor="let i of data">
+                    {{i.name}}
+                </div>
+            </div>
+            <div class="text-success">
+                <strong>
+
+                </strong>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div>
+                <strong>EX - 02</strong>
+                <hr>
+            </div>
+            <div class="border bg-light py-2 px-2 rounded">
+                Filter by Name
+                <br>
+
+            </div>
+            <div>
+                <table >
+                    <thead >
+                        <th class="border py-2 px-2">id</th>
+                        <th class="border py-2 px-2">name</th>
+                        <th class="border py-2 px-2">name</th>
+                    </thead>
+                    <tbody *ngFor="let item of data2">
+                        <td>{{item.id}}</td>
+                        <td>{{item.name}}</td>
+                        <td>{{item.gender}}</td>
+                    </tbody>
+                </table>
+               
+            </div>
+        </div>
+    </div>
+</div>
